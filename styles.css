@@ -1,0 +1,36 @@
+body{
+    font:  16px/1.5 Georgia, "Times New Roman", Times, serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #fffdfd, #d1d0d0);
+}
+.name{
+   // box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    //background-color: #fffdfd;
+  p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+
+    h1{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+.btnPan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
