@@ -1,24 +1,71 @@
-body{
-    font:  16px/1.5 Georgia, "Times New Roman", Times, serif;
-    height: 100vh;
+body {
+
+    background: radial-gradient(circle, #fffdfd, #dddcdc);
     margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle, #fffdfd, #d1d0d0);
-}
-.name{
-   // box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    //background-color: #fffdfd;
-  p{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-  }
+    flex-direction: column;
+    height: 100vh;
 
 
-    h1{
+    .hat {
+        font: 19px/1.5 Georgia, "Times New Roman", Times, serif;
+
+
+        background: linear-gradient(180deg, #dddcdc, #f4f2f2);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1px ;
+    }
+    .toptext{
+        margin-left: 15%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .nav {
+        margin-right: 15%;
+        display: flex;
+        justify-content: end;
+        align-items: start ;
+
+    }
+    .navText{
+        text-decoration: none;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+    }
+    .navText:hover{
+        text-decoration: underline;
+        color: forestgreen;
+    }
+
+    .name {
+        font: 16px/1.5 Georgia, "Times New Roman", Times, serif;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+
+    }
+
+/ / box-shadow: 0 0 10 px rgba(0, 0, 0, 0.2);
+/ / background-color: #fffdfd;
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    h1 {
 
         display: flex;
         justify-content: center;
@@ -27,6 +74,7 @@ body{
     }
 
 }
+
 .btnPan {
     display: flex;
     justify-content: center;
