@@ -1,10 +1,10 @@
 body {
-    background: radial-gradient(circle, #fffdfd, #dddcdc);
     margin: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     font: 16px/1.5 Georgia, "Times New Roman", Times, serif;
+    background: radial-gradient(circle, #fffdfd, #dddcdc);
 }
 
 .hat {
@@ -12,22 +12,20 @@ body {
     background: linear-gradient(180deg, #dddcdc, #f4f2f2);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1px;
+    align-items: center; /* вертикальное центрирование */
+    padding: 10px 15%;
 }
 
 .toptext {
-    margin-left: 15%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-start; /* вместо start */
+    align-items: flex-start;     /* вместо start */
 }
 
 .nav {
-    margin-right: 15%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: flex-end;   /* вместо end */
+    align-items: flex-start;     /* вместо start */
 }
 
 .navText {
@@ -51,23 +49,14 @@ body {
     margin: 0;
 }
 
-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+p, h1 {
+    margin: 0;
+    text-align: center;
 }
 
 .btnPan {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 10px;
 }
