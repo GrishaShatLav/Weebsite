@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font: 16px/1.5 Georgia, "Times New Roman", Times, serif;
+    background: radial-gradient(circle, #fffdfd, #dddcdc);
+}
+.hat {
+    font: 19px/1.5 Georgia, "Times New Roman", Times, serif;
+    background: linear-gradient(180deg, #dddcdc, #f4f2f2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* вертикальное центрирование */
+    padding: 10px 15%;
+}
+
+.toptext {
+    display: flex;
+    justify-content: flex-start; /* вместо start */
+    align-items: flex-start;     /* вместо start */
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;   /* вместо end */
+    align-items: flex-start;     /* вместо start */
+}
+
+.navText {
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.navText:hover {
+    text-decoration: underline;
+    color: forestgreen;
+}
