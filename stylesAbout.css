@@ -1,8 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+
     font: 16px/1.5 Georgia, "Times New Roman", Times, serif;
     background: radial-gradient(circle, #fffdfd, #dddcdc);
 }
@@ -11,20 +10,20 @@ body {
     background: linear-gradient(180deg, #dddcdc, #f4f2f2);
     display: flex;
     justify-content: space-between;
-    align-items: center; /* вертикальное центрирование */
+    align-items: center;
     padding: 10px 15%;
 }
 
 .toptext {
     display: flex;
-    justify-content: flex-start; /* вместо start */
-    align-items: flex-start;     /* вместо start */
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .nav {
     display: flex;
-    justify-content: flex-end;   /* вместо end */
-    align-items: flex-start;     /* вместо start */
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .navText {
@@ -36,5 +35,54 @@ body {
 
 .navText:hover {
     text-decoration: underline;
+    color: forestgreen;
+}
+.about{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.GetToMainText{
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+.about {
+    width: 60%;
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: auto;
+    min-height: 200px;
+}
+
+.about h1 {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 0;
+    text-align: left;
+}
+.text{
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 0;
+    text-align: left;
+}
+.ItchText{
+    text-decoration: underline;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+.ItchText:hover{
     color: forestgreen;
 }

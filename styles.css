@@ -12,20 +12,20 @@ body {
     background: linear-gradient(180deg, #dddcdc, #f4f2f2);
     display: flex;
     justify-content: space-between;
-    align-items: center; /* вертикальное центрирование */
+    align-items: center;
     padding: 10px 15%;
 }
 
 .toptext {
     display: flex;
-    justify-content: flex-start; /* вместо start */
-    align-items: flex-start;     /* вместо start */
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .nav {
     display: flex;
-    justify-content: flex-end;   /* вместо end */
-    align-items: flex-start;     /* вместо start */
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .navText {
